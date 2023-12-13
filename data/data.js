@@ -670,7 +670,7 @@ export const testimonialData = [
       "I can't wait to show it off and receive compliments on my impeccable taste. NextBid is truly a treasure trove for fashion enthusiasts, offering exclusive items at unbelievable prices.",
     user: {
       name: "John Smith",
-      img: "/images/testimonial/client1.png",
+      img: "/images/testimonial/client3.webp",
       position: "Marketing Manager - Static Mania",
     },
   },
@@ -680,7 +680,7 @@ export const testimonialData = [
       "Discover fashion treasures at NextBid. Unleash your style game with exclusive pieces at amazing prices. Find your signature look and make a statement. Join the fashion revolution at NextBid",
     user: {
       name: "Sarah Johnson",
-      img: "/images/testimonial/client2.png",
+      img: "/images/testimonial/client3.webp",
       position: "Sales Executive - Static Mania",
     },
   },
@@ -690,7 +690,7 @@ export const testimonialData = [
       "Flaunt impeccable style. NextBid: haven for fashion enthusiasts, offering exclusive pieces at incredible prices. Explore more. Find fashion treasure. Join the endless possibilities.",
     user: {
       name: "Michael Brown",
-      img: "/images/testimonial/client3.png",
+      img: "/images/testimonial/client3.webp",
       position: "Customer Support - Static Mania",
     },
   },
@@ -700,7 +700,7 @@ export const testimonialData = [
       "Elevate your fashion game with NextBid. Unlock exclusive styles at unbeatable prices. Discover your fashion identity and make heads turn. Experience the thrill of NextBid today!",
     user: {
       name: "Daniel Wilson",
-      img: "/images/testimonial/client2.png",
+      img: "/images/testimonial/client3.webp",
       position: "IT Specialist - Static Mania",
     },
   },
@@ -710,7 +710,7 @@ export const testimonialData = [
       "Step into NextBid, redefine your fashion journey. Uncover hidden gems at incredible prices. Embrace your style, leave a lasting impression. NextBid: your fashion destination.",
     user: {
       name: "Emily Davis",
-      img: "/images/testimonial/client3.png",
+      img: "/images/testimonial/client3.webp",
       position: "Operations Manager - Static Mania",
     },
   },

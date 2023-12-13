@@ -3,6 +3,7 @@ import { MagnifyingGlass, MapPin } from "phosphor-react";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import hero from "/public/images/assets/hero.webp";
 const Hero = () => {
   const [city, setCity] = useState(false);
   const [property, setProperty] = useState(false);
@@ -42,7 +43,7 @@ const Hero = () => {
               className="hero-shape"
             >
               <Image
-                src="/images/hero/hero.png"
+                src={hero}
                 alt="hero"
                 height={822}
                 width={613}
@@ -107,7 +108,7 @@ const Hero = () => {
                     </button>
                   </div>
                 </nav>
-                <div className="tab-content" id="nav-tabContent">
+                {/* <div className="tab-content" id="nav-tabContent">
                   <div
                     className="tab-pane fade show active"
                     id="nav-buy"
@@ -549,7 +550,7 @@ const Hero = () => {
                       </div>
                     </form>
                   </div>
-                </div>
+                </div> */}
               </div>
             </motion.div>
           </div>

@@ -1,5 +1,5 @@
 "use client";
-import FeatureBottom from "./FeatureBottom";
+// import FeatureBottom from "./FeatureBottom";
 import FeatureTop from "./FeatureTop";
 
 const Feature = () => {
@@ -7,7 +7,7 @@ const Feature = () => {
     <section className="feature">
       <div className="container">
         <FeatureTop />
-        <FeatureBottom />
+        {/* <FeatureBottom /> */}
       </div>
     </section>
   );

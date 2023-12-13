@@ -1,5 +1,8 @@
 "use client";
 import Image from "next/image";
+import blog1 from "/public/images/assets/blog1.webp";
+import blog2 from "/public/images/assets/blog2.png";
+import blog3 from "/public/images/assets/blog3.webp";
 import Link from "next/link";
 import { ArrowRight } from "phosphor-react";
 import React from "react";
@@ -32,7 +35,7 @@ const HomeBlog = ({ blogs }) => {
                 <Image
                   height={384}
                   width={350}
-                  src={coveredImage}
+                  src={blog1}
                   alt="blog-image"
                   style={{
                     maxWidth: "100%",

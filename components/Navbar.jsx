@@ -57,7 +57,7 @@ const Navbar = () => {
               (546) 232 - 9872
             </a>
           </div>
-          <div className=" d-none d-sm-flex navbar-search align-items-center ms-auto ms-lg-0 order-lg-last">
+          {/* <div className=" d-none d-sm-flex navbar-search align-items-center ms-auto ms-lg-0 order-lg-last">
             <ul className="list-unstyled m-0">
               <li className="nav-item ">
                 <Link
@@ -78,7 +78,7 @@ const Navbar = () => {
             >
               Log In
             </a>
-          </div>
+          </div> */}
           <button
             className="navbar-toggler collapsed"
             type="button"
@@ -99,8 +99,14 @@ const Navbar = () => {
           </button>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              {menuData.map((item) => {
+            <ul className="navbar-nav  mb-2 mb-lg-0">
+              <li className={`nav-item`} >
+                <Link href='/'>Home</Link>
+              </li>
+              <li className={`nav-ite`} >
+                <Link href='/contact'>Conatct</Link>
+              </li>
+              {/* {menuData.map((item) => {
                 return (
                   <li
                     key={item.id}
@@ -187,9 +193,9 @@ const Navbar = () => {
                     )}
                   </li>
                 );
-              })}
+              })} */}
 
-              <li className="nav-item d-none d-sm-inline-block d-lg-none">
+              {/* <li className="nav-item d-none d-sm-inline-block d-lg-none">
                 <a
                   className="btn btn-small btn-outline"
                   data-bs-toggle="modal"
@@ -198,9 +204,9 @@ const Navbar = () => {
                 >
                   Log In
                 </a>
-              </li>
+              </li> */}
             </ul>
-            <div className="d-flex navbar-search align-items-center ms-auto ms-lg-0 order-lg-last d-sm-none">
+            {/* <div className="d-flex navbar-search align-items-center ms-auto ms-lg-0 order-lg-last d-sm-none">
               <ul className="list-unstyled m-0 search-dropdown">
                 <li className="nav-item ">
                   <Link
@@ -220,7 +226,7 @@ const Navbar = () => {
               >
                 Log In
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </nav>

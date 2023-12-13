@@ -1,5 +1,9 @@
 "use client";
 import Image from "next/image";
+import f1 from "/public/images/assets/feature1.png";
+import f2 from "/public/images/assets/feature2.webp";
+import f3 from "/public/images/assets/feature2 (1).webp";
+import f4 from "/public/images/assets/feature4.png";
 import Link from "next/link";
 import useAnimation from "@/hooks/useAnimation";
 import { useRef } from "react";
@@ -39,7 +43,7 @@ const FeatureTop = () => {
           <div className="col-6 ">
             <div className="feature-grid-image">
               <Image
-                src="/images/feature/feature1.png"
+                src={f1}
                 height={327}
                 width={284}
                 alt="feature1"
@@ -51,7 +55,7 @@ const FeatureTop = () => {
               <Image
                 height={218}
                 width={284}
-                src="/images/feature/feature2.png"
+                src={f3}
                 alt="feature2"
                 style={{
                   maxWidth: "100%",
@@ -65,7 +69,7 @@ const FeatureTop = () => {
               <Image
                 height={218}
                 width={284}
-                src="/images/feature/feature3.png"
+                src={f2}
                 alt="feature3"
                 style={{
                   maxWidth: "100%",
@@ -75,7 +79,7 @@ const FeatureTop = () => {
               <Image
                 height={327}
                 width={284}
-                src="/images/feature/feature4.png"
+                src={f4}
                 alt="feature4"
                 style={{
                   maxWidth: "100%",

@@ -2,6 +2,8 @@
 import { testimonialData } from "@/data/data";
 import { QuoteIcon } from "@/data/svgImages";
 import Image from "next/image";
+import shape1 from "/public/images/assets/testimonial-shape-1.png";
+import shape2 from "/public/images/assets/testimonial-shape-2.png";
 import Slider from "react-slick";
 import { ArrowLeft, ArrowRight } from "phosphor-react";
 const PrevArrow = (props) => {
@@ -48,7 +50,7 @@ const Testimonial = () => {
         <Image
           height={781}
           width={390}
-          src="/images/testimonial/testimonial-shape-1.png"
+          src={shape1}
           alt="testimonial-shape"
           style={{
             maxWidth: "100%",
@@ -60,7 +62,7 @@ const Testimonial = () => {
         <Image
           height={200}
           width={200}
-          src="/images/testimonial/testimonial-shape-2.png"
+          src={shape2}
           alt="testimonial-shape"
           style={{
             maxWidth: "100%",
