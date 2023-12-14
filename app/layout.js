@@ -9,8 +9,7 @@ import CreateAccount from "@/components/CreateAccount";
 import ForgetPassword from "@/components/ForgetPassword";
 import Otp from "@/components/Otp";
 import NewPassword from "@/components/NewPassword";
-import GoogleTranslate from "@/components/GoogleTranslate";
-
+// import './globals.css'
 const manrope = Manrope({
   weight: ["200", "300", "400", "500", "600", "700", "800"],
   style: ["normal"],
@@ -26,7 +25,6 @@ export default function RootLayout({children}) {
         suppressHydrationWarning={true}
         className={manrope.className}
       >
-        <GoogleTranslate/>
         <Navbar />
         <main>{children}</main>
         <Footer />

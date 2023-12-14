@@ -10,6 +10,7 @@ import {
   List,
   XCircle,
 } from "phosphor-react";
+import GoogleTranslate from './GoogleTranslate'
 
 const Navbar = () => {
   useEffect(() => {
@@ -43,7 +44,7 @@ const Navbar = () => {
                 width={129}
               />
             </Link>
-            <a href="tel:2329872 " className="navbar-number align-items-center">
+            {/* <a href="tel:2329872 " className="navbar-number align-items-center">
               <svg
                 width={6}
                 height={7}
@@ -55,7 +56,7 @@ const Navbar = () => {
               </svg>
               <Phone size={24} weight="bold" />
               (546) 232 - 9872
-            </a>
+            </a> */}
           </div>
           {/* <div className=" d-none d-sm-flex navbar-search align-items-center ms-auto ms-lg-0 order-lg-last">
             <ul className="list-unstyled m-0">
@@ -97,6 +98,7 @@ const Navbar = () => {
               Close
             </span>
           </button>
+          
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav  mb-2 mb-lg-0">
@@ -227,7 +229,10 @@ const Navbar = () => {
                 Log In
               </a>
             </div> */}
+
           </div>
+          <GoogleTranslate />
+
         </div>
       </nav>
     </header>

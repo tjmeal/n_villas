@@ -1,6 +1,14 @@
 /********** 
 4. Navbar Styles 
+.
 **********/
+
+.translateImg{
+  // background-color: #1c4456;
+  position: absolute;
+  top: 5rem;
+  right: 0;
+}
 .navbar {
   position: fixed;
   padding: $base-padding $base-padding !important;
