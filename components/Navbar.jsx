@@ -101,12 +101,12 @@ const Navbar = () => {
           
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav  mb-2 mb-lg-0">
-              <li className={`nav-item`} >
-                <Link href='/'>Home</Link>
+            <ul className="navbar-nav   mb-2 mb-lg-0">
+              <li className={`nav-item `} >
+                <Link href='/' className="nav-link">Home</Link>
               </li>
-              <li className={`nav-ite`} >
-                <Link href='/contact'>Conatct</Link>
+              <li className={`nav-item`} >
+                <Link href='/contact' className="nav-link">Conatct</Link>
               </li>
               {/* {menuData.map((item) => {
                 return (

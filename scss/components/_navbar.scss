@@ -16,7 +16,9 @@
 .rs-picker-select-menu{
   top: 70px!important;
   z-index: 10!important;
-  
+}
+.rs-picker-toggle-value{
+      color: #1c4456 !important;
 }
  @include media-breakpoint-down-md {
   .rs-picker-select-menu {

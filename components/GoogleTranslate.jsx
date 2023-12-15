@@ -59,7 +59,7 @@ const Translate = () => {
             {/* <div id="google_translate_element" style={{ width: '0px', height: '0px', position: 'absolute', left: '50%' }}></div> */}
             <SelectPicker
                 data={languages}
-                style={{ width: 100 }}
+                style={{ width: 100, color:'#1C4456!important'}}
                 placement="bottomEnd"
                 cleanable={false}
                 value={selected}
