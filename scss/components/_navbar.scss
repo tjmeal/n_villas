@@ -5,10 +5,26 @@
 
 .translateImg{
   // background-color: #1c4456;
+  height: 100vh;
   position: absolute;
-  top: 5rem;
+  top: 10rem;
   right: 0;
+  width: 100%;
+  display: flex;
+  justify-content: end;
 }
+.rs-picker-select-menu{
+  top: 70px!important;
+  z-index: 10!important;
+  
+}
+ @include media-breakpoint-down-md {
+  .rs-picker-select-menu {
+      top: 100px !important;
+      z-index: 10 !important;
+  
+    }
+ }
 .navbar {
   position: fixed;
   padding: $base-padding $base-padding !important;

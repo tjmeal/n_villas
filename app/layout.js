@@ -9,6 +9,8 @@ import CreateAccount from "@/components/CreateAccount";
 import ForgetPassword from "@/components/ForgetPassword";
 import Otp from "@/components/Otp";
 import NewPassword from "@/components/NewPassword";
+
+import 'rsuite/dist/rsuite.min.css';
 // import './globals.css'
 const manrope = Manrope({
   weight: ["200", "300", "400", "500", "600", "700", "800"],
