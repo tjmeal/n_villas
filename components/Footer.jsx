@@ -17,7 +17,7 @@ const Footer = () => {
               <div className="footer-widget">
                 <div className="footer-logo">
                   <Image
-                    src="/images/logo.svg"
+                    src="/images/logo2.svg"
                     alt="logo"
                     height={35}
                     width={129}
@@ -254,7 +254,7 @@ const Footer = () => {
               <div className="footer-widget">
                 <div className="footer-logo">
                   <Image
-                    src="/images/logo.svg"
+                    src="/images/logo2.svg"
                     alt="logo"
                     height={35}
                     width={129}
@@ -262,17 +262,16 @@ const Footer = () => {
                 </div>
                 <div className="footer-address">
                   <p>
-                    59 Bervely Hill Ave, Brooklyn Town, <br />
-                    New York, NY 5630, CA, US
+                    Ikarias 2, Markopoulo Oropu <br /> Greece PC 19015
                   </p>
                   <p className="contact-number mb-0">
-                    <Link href="tel:+05656565656">+056 686 56 56 98</Link>
+                    <a href="tel:+306947484950">(+30) 6947484950</a>
                   </p>
                   <p className="contact-email mb-0">
-                    <Link href="mailto:info@staticmania.com">info@staticmania.com</Link>
+                    <a href="mailto:info@grondas.com">info@grondas.com</a>
                   </p>
                 </div>
-                <div className="footer-social">
+                {/* <div className="footer-social">
                   <ul className="list-unstyled list-inline">
                     {socialMediaData.map((media) => (
                       <li
@@ -284,13 +283,13 @@ const Footer = () => {
                     ))}
                   </ul>
                   <p className="footer-copyright">RealStatic Limited © {new Date().getFullYear()}</p>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-sm-6">
               <div className="row row-cols-2 gutter-5">
                 <div className="col">
-                  <div className="footer-widget">
+                  {/* <div className="footer-widget">
                     <h5>Pages</h5>
                     <ul className="list-unstyled">
                       <li>
@@ -334,10 +333,10 @@ const Footer = () => {
                         </Link>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="col">
-                  <div className="footer-widget">
+                  {/* <div className="footer-widget">
                     <h5>Company Details</h5>
                     <ul className="list-unstyled">
                       <li>
@@ -373,10 +372,10 @@ const Footer = () => {
                         </Link>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="col">
-                  <div className="footer-widget">
+                  {/* <div className="footer-widget">
                     <h5>Other Pages</h5>
                     <ul className="list-unstyled">
                       <li>
@@ -420,10 +419,10 @@ const Footer = () => {
                         </Link>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="col">
-                  <div className="footer-widget">
+                  {/* <div className="footer-widget">
                     <h5>Others</h5>
                     <ul className="list-unstyled">
                       <li>
@@ -477,7 +476,7 @@ const Footer = () => {
                         </a>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -492,7 +491,7 @@ const Footer = () => {
               <div className="footer-widget">
                 <div className="footer-logo">
                   <Image
-                    src="/images/logo.svg"
+                    src="/images/logo2.svg"
                     alt="logo"
                     height={35}
                     width={129}
@@ -500,7 +499,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="col-12">
+            {/* <div className="col-12">
               <div className="row row-cols-2 gutter-5">
                 <div className="col">
                   <div className="footer-widget">
@@ -693,23 +692,22 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="col-12">
               <div className="footer-widget">
                 <div className="footer-address">
                   <p>
-                    59 Bervely Hill Ave, Brooklyn Town, <br />
-                    New York, NY 5630, CA, US
+                    Ikarias 2, Markopoulo Oropu <br /> Greece PC 19015
                   </p>
                   <p className="contact-number mb-0">
-                    <a href="tel:+05656565656">+056 686 56 56 98</a>
+                    <a href="tel:+306947484950">(+30) 6947484950</a>
                   </p>
                   <p className="contact-email mb-0">
-                    <a href="mailto:info@staticmania.com">info@staticmania.com</a>
+                    <a href="mailto:info@grondas.com">info@grondas.com</a>
                   </p>
                 </div>
                 <div className="footer-social">
-                  <ul className="list-unstyled list-inline">
+                  {/* <ul className="list-unstyled list-inline">
                     {socialMediaData.map((media) => (
                       <li
                         key={media.id}
@@ -718,7 +716,7 @@ const Footer = () => {
                         <a href={media.path}>{media.icon}</a>
                       </li>
                     ))}
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>

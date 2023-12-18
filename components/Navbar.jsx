@@ -38,10 +38,10 @@ const Navbar = () => {
           <div className="d-flex align-items-center">
             <Link className="navbar-brand" href="/">
               <Image
-                src="/images/logo.svg"
+                src="/images/logo2.svg"
                 alt="logo"
-                height={35}
-                width={129}
+                height={40}
+                width={150}
               />
             </Link>
             {/* <a href="tel:2329872 " className="navbar-number align-items-center">
