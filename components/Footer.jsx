@@ -25,18 +25,17 @@ const Footer = () => {
                 </div>
                 <div className="footer-address">
                   <p>
-                    59 Bervely Hill Ave, Brooklyn Town, <br />
-                    New York, NY 5630, CA, US
+                    Ikarias 2, Markopoulo Oropu <br /> Greece PC 19015
                   </p>
                   <p className="contact-number mb-0">
-                    <a href="tel:+05656565656">+056 686 56 56 98</a>
+                    <a href="tel:+306947484950">(+30) 6947484950</a>
                   </p>
                   <p className="contact-email mb-0">
-                    <a href="mailto:info@staticmania.com">info@staticmania.com</a>
+                    <a href="mailto:info@grondas.com">info@grondas.com</a>
                   </p>
                 </div>
                 <div className="footer-social">
-                  <ul className="list-unstyled list-inline">
+                  {/* <ul className="list-unstyled list-inline">
                     {socialMediaData.map((media) => (
                       <li
                         key={media.id}
@@ -45,12 +44,12 @@ const Footer = () => {
                         <Link href={media.path}>{media.icon}</Link>
                       </li>
                     ))}
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
             <div className="col-xl-2">
-              <div className="footer-widget">
+              {/* <div className="footer-widget">
                 <h5>Pages</h5>
                 <ul className="list-unstyled">
                   <li>
@@ -94,10 +93,10 @@ const Footer = () => {
                     </Link>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
             <div className="col-xl-2">
-              <div className="footer-widget">
+              {/* <div className="footer-widget">
                 <h5>Company Details</h5>
                 <ul className="list-unstyled">
                   <li>
@@ -133,10 +132,10 @@ const Footer = () => {
                     </Link>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
             <div className="col-xl-2">
-              <div className="footer-widget">
+              {/* <div className="footer-widget">
                 <h5>Other Pages</h5>
                 <ul className="list-unstyled">
                   <li>
@@ -180,10 +179,10 @@ const Footer = () => {
                     </Link>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
             <div className="col-xl-2">
-              <div className="footer-widget">
+              {/* <div className="footer-widget">
                 <h5>Others</h5>
                 <ul className="list-unstyled">
                   <li>
@@ -237,14 +236,14 @@ const Footer = () => {
                     </a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
-          <div className="row">
+          {/* <div className="row">
             <div className="offset-1 col-11">
               <p className="footer-copyright">RealStatic Limited © {new Date().getFullYear()}</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
       {/*For Tablet */}

@@ -77,22 +77,22 @@ const Contact = () => {
               </div>
               <div className="contact-form-address">
                 <h6>Office Address</h6>
-                <p>1421 San Pedro St, Los Angeles, CA 90015</p>
+                <p>Ikarias 2, Markopoulo Oropu Greece PC 19015</p>
                 <a
                   href="tel:+05656565656"
                   className="phone d-flex align-items-center"
                 >
                   <Phone size={24} />
-                  <span>(302) 555-0107</span>
+                  <span>(+30) 6947484950</span>
                 </a>
                 <a
                   href="mailto:staticmania@gmail.com"
                   className="mail d-flex align-items-center"
                 >
                   <EnvelopeSimpleOpen size={20} />
-                  <span>staticmania@gmail.com</span>
+                  <span>info@grondas.com</span>
                 </a>
-                <div className="contact-social">
+                {/* <div className="contact-social">
                   <h6>Socila Links</h6>
                   <ul className="list-unstyled list-inline">
                     {socialMediaData.map((media) => (
@@ -104,7 +104,7 @@ const Contact = () => {
                       </li>
                     ))}
                   </ul>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
