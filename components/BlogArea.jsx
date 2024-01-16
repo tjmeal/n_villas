@@ -30,16 +30,16 @@ const BlogArea = () => {
       <div className="container">
         <div className="row">
           <div className="col-12">
-            {/*<div className="d-flex align-items-center justify-content-between blog-header">*/}
-            {/*  <h5>News &amp; Consultant</h5>*/}
-            {/*  <Link*/}
-            {/*    href="/blogs"*/}
-            {/*    className="d-md-flex align-items-center d-none "*/}
-            {/*  >*/}
-            {/*    <span>Explore All </span>*/}
-            {/*    <Arrow />*/}
-            {/*  </Link>*/}
-            {/*</div>*/}
+            <div className="d-flex align-items-center justify-content-between blog-header">
+              <h3>News &amp; Consultant</h3>
+              <Link
+                href="/blogs"
+                className="d-md-flex align-items-center d-none "
+              >
+                <span>Explore All </span>
+                <Arrow />
+              </Link>
+            </div>
           </div>
         </div>
         <HomeBlog blogs={uniqueBlog} />
