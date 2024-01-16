@@ -30,8 +30,8 @@ export default function RootLayout({children}) {
         <Navbar />
         <main>{children}</main>
         <Footer />
-        <LogIn />
-        <CreateAccount />
+        {/*<LogIn />*/}
+        {/*<CreateAccount />*/}
         {/*<ForgetPassword />*/}
         {/*<Otp />*/}
         {/*<NewPassword />*/}
