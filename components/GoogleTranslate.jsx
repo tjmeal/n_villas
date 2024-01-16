@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { SelectPicker } from 'rsuite';
 import { getCookie, hasCookie, setCookie } from 'cookies-next';
 
@@ -57,7 +57,9 @@ const Translate = () => {
     return (
         <div className="google">
             {/* <div id="google_translate_element" style={{ width: '0px', height: '0px', position: 'absolute', left: '50%' }}></div> */}
+            <label htmlFor="langPicker">Lang: </label>
             <SelectPicker
+                id="langPicker"
                 data={languages}
                 style={{ width: 100, color:'#1C4456!important'}}
                 placement="bottomEnd"

@@ -12,7 +12,7 @@ const NewsLetter = () => {
                             production and delivery.
                         </p>
                         <form action="GET" className="flex align-items-center">
-                            <label htmlFor="email">Email: </label>
+                            <label htmlFor="email" style={{display: "none"}}>Email: </label>
                             <input
                                 id="email"
                                 type="text"
