@@ -31,7 +31,7 @@ const BlogArea = () => {
         <div className="row">
           <div className="col-12">
             <div className="d-flex align-items-center justify-content-between blog-header">
-              <h2>News &amp; Consultant</h2>
+              <h5>News &amp; Consultant</h5>
               <Link
                 href="/blogs"
                 className="d-md-flex align-items-center d-none "
