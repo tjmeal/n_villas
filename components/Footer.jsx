@@ -35,7 +35,7 @@ const Footer = () => {
                   </p>
                 </div>
                 <div className="footer-social">
-                  {/* <ul className="list-unstyled list-inline">
+                  <ul className="list-unstyled list-inline">
                     {socialMediaData.map((media) => (
                       <li
                         key={media.id}
@@ -44,12 +44,12 @@ const Footer = () => {
                         <Link href={media.path}>{media.icon}</Link>
                       </li>
                     ))}
-                  </ul> */}
+                  </ul>
                 </div>
               </div>
             </div>
             <div className="col-xl-2">
-              {/* <div className="footer-widget">
+               <div className="footer-widget">
                 <h5>Pages</h5>
                 <ul className="list-unstyled">
                   <li>
@@ -93,10 +93,10 @@ const Footer = () => {
                     </Link>
                   </li>
                 </ul>
-              </div> */}
+              </div>
             </div>
             <div className="col-xl-2">
-              {/* <div className="footer-widget">
+              <div className="footer-widget">
                 <h5>Company Details</h5>
                 <ul className="list-unstyled">
                   <li>
@@ -132,10 +132,10 @@ const Footer = () => {
                     </Link>
                   </li>
                 </ul>
-              </div> */}
+              </div>
             </div>
             <div className="col-xl-2">
-              {/* <div className="footer-widget">
+              <div className="footer-widget">
                 <h5>Other Pages</h5>
                 <ul className="list-unstyled">
                   <li>
@@ -179,10 +179,10 @@ const Footer = () => {
                     </Link>
                   </li>
                 </ul>
-              </div> */}
+              </div>
             </div>
             <div className="col-xl-2">
-              {/* <div className="footer-widget">
+              <div className="footer-widget">
                 <h5>Others</h5>
                 <ul className="list-unstyled">
                   <li>
@@ -236,14 +236,14 @@ const Footer = () => {
                     </a>
                   </li>
                 </ul>
-              </div> */}
+              </div>
             </div>
           </div>
-          {/* <div className="row">
+          <div className="row">
             <div className="offset-1 col-11">
               <p className="footer-copyright">RealStatic Limited © {new Date().getFullYear()}</p>
             </div>
-          </div> */}
+          </div>
         </div>
       </section>
       {/*For Tablet */}
@@ -271,7 +271,7 @@ const Footer = () => {
                     <a href="mailto:info@grondas.com">info@grondas.com</a>
                   </p>
                 </div>
-                {/* <div className="footer-social">
+                 <div className="footer-social">
                   <ul className="list-unstyled list-inline">
                     {socialMediaData.map((media) => (
                       <li
@@ -283,13 +283,13 @@ const Footer = () => {
                     ))}
                   </ul>
                   <p className="footer-copyright">RealStatic Limited © {new Date().getFullYear()}</p>
-                </div> */}
+                </div>
               </div>
             </div>
             <div className="col-sm-6">
               <div className="row row-cols-2 gutter-5">
                 <div className="col">
-                  {/* <div className="footer-widget">
+                   <div className="footer-widget">
                     <h5>Pages</h5>
                     <ul className="list-unstyled">
                       <li>
@@ -333,10 +333,10 @@ const Footer = () => {
                         </Link>
                       </li>
                     </ul>
-                  </div> */}
+                  </div>
                 </div>
                 <div className="col">
-                  {/* <div className="footer-widget">
+                  <div className="footer-widget">
                     <h5>Company Details</h5>
                     <ul className="list-unstyled">
                       <li>
@@ -372,10 +372,10 @@ const Footer = () => {
                         </Link>
                       </li>
                     </ul>
-                  </div> */}
+                  </div>
                 </div>
                 <div className="col">
-                  {/* <div className="footer-widget">
+                  <div className="footer-widget">
                     <h5>Other Pages</h5>
                     <ul className="list-unstyled">
                       <li>
@@ -419,10 +419,10 @@ const Footer = () => {
                         </Link>
                       </li>
                     </ul>
-                  </div> */}
+                  </div>
                 </div>
                 <div className="col">
-                  {/* <div className="footer-widget">
+                   <div className="footer-widget">
                     <h5>Others</h5>
                     <ul className="list-unstyled">
                       <li>
@@ -476,7 +476,7 @@ const Footer = () => {
                         </a>
                       </li>
                     </ul>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>
@@ -499,7 +499,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="col-12">
+             <div className="col-12">
               <div className="row row-cols-2 gutter-5">
                 <div className="col">
                   <div className="footer-widget">
@@ -692,7 +692,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-            </div> */}
+            </div>
             <div className="col-12">
 
               <div className="footer-widget">
@@ -708,7 +708,7 @@ const Footer = () => {
                   </p>
                 </div>
                 <div className="footer-social">
-                  {/* <ul className="list-unstyled list-inline">
+                <ul className="list-unstyled list-inline">
                     {socialMediaData.map((media) => (
                       <li
                         key={media.id}
@@ -717,7 +717,7 @@ const Footer = () => {
                         <a href={media.path}>{media.icon}</a>
                       </li>
                     ))}
-                  </ul> */}
+                  </ul>
                 </div>
               </div>
             </div>
