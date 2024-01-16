@@ -57,7 +57,7 @@ const Translate = () => {
     return (
         <div className="google">
             {/* <div id="google_translate_element" style={{ width: '0px', height: '0px', position: 'absolute', left: '50%' }}></div> */}
-            <label htmlFor="langPicker">Lang: </label>
+            <label htmlFor="langPicker" style={{display: "none"}}>Lang: </label>
             <SelectPicker
                 id="langPicker"
                 data={languages}
