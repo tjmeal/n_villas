@@ -5,9 +5,11 @@ import Link from "next/link";
 import React from "react";
 import {useEffect} from "react";
 const Footer = () => {
+
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap.bundle.min.js");
   }, []);
+
   return (
     <>
       <section className="footer d-none d-xl-block">
