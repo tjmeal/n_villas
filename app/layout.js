@@ -29,7 +29,7 @@ export default function RootLayout({children}) {
       >
         <Navbar />
         <main>{children}</main>
-        <Footer />
+        {/*<Footer />*/}
         <LogIn />
         <CreateAccount />
         <ForgetPassword />
