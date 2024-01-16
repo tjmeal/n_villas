@@ -694,6 +694,7 @@ const Footer = () => {
               </div>
             </div> */}
             <div className="col-12">
+
               <div className="footer-widget">
                 <div className="footer-address">
                   <p>
