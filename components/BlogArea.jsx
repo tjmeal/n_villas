@@ -40,6 +40,7 @@ const BlogArea = () => {
             {/*    <Arrow />*/}
             {/*  </Link>*/}
             {/*</div>*/}
+
           </div>
         </div>
         <HomeBlog blogs={uniqueBlog} />
