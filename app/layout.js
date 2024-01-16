@@ -32,9 +32,9 @@ export default function RootLayout({children}) {
         <Footer />
         <LogIn />
         <CreateAccount />
-        <ForgetPassword />
-        <Otp />
-        <NewPassword />
+        {/*<ForgetPassword />*/}
+        {/*<Otp />*/}
+        {/*<NewPassword />*/}
       </body>
     </html>
   );
