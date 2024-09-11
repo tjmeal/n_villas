@@ -16,11 +16,11 @@ export default function Home() {
     <>
       <Hero />
       <WorkArea />
-      <Counter />
+      {/*<Counter />*/}
       {/* <PropertiesArea /> */}
-      <Feature />
-      <Testimonial />
-      <BlogArea />
+      {/*<Feature />*/}
+      {/*<Testimonial />*/}
+      {/*<BlogArea />*/}
     </>
   );
 }

@@ -23,14 +23,14 @@ const WorkArea = () => {
         <div className="row g-3">
           <div className="col-xl-6 col-lg-5">
             <div className="work-area--card">
-              <h3>Simple &amp; easy way to find your dream apartment</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-              <Link
-                href="/contact"
-                className="btn btn-small"
-              >
-                Get Started
-              </Link>
+              <h3>Dreamed location for your vacations</h3>
+              <p>Can accomodate two families with it's own privacy.</p>
+              {/*<Link*/}
+              {/*  href="/contact"*/}
+              {/*  className="btn btn-small"*/}
+              {/*>*/}
+              {/*  Get Started*/}
+              {/*</Link>*/}
             </div>
           </div>
           <div className="col-xl-6 col-lg-7">
@@ -38,25 +38,25 @@ const WorkArea = () => {
               <div className="work-area--service--items order-2 order-md-1">
                 <SearchLocation />
                 <h4>
-                  Search <br /> your location
+                  10 Minutes <br /> from the beach
                 </h4>
               </div>
               <div className="work-area--service--items order-1 order-md-2">
                 <VisitIcon />
                 <h4>
-                  Visit <br /> Apartment
+                  Private infinity pool with sea view
                 </h4>
               </div>
               <div className="work-area--service--items order-4 order-md-3">
                 <GetIcon />
                 <h4>
-                  Get your <br /> dream house
+                  Sunset <br /> Enjoy majestic views
                 </h4>
               </div>
               <div className="work-area--service--items order-3 order-md-4">
                 <EnjoyIcon />
                 <h4>
-                  Enjoy your <br /> Apartment
+                  Family <br /> Privacy
                 </h4>
               </div>
             </div>
