@@ -24,7 +24,7 @@ const WorkArea = () => {
           <div className="col-xl-6 col-lg-5">
             <div className="work-area--card">
               <h3>Dreamed location for your vacations</h3>
-              <p>Can accomodate two families with it's own privacy.</p>
+              <p>Can accommodate two families with it&apos;s own privacy.</p>
               {/*<Link*/}
               {/*  href="/contact"*/}
               {/*  className="btn btn-small"*/}
@@ -50,13 +50,13 @@ const WorkArea = () => {
               <div className="work-area--service--items order-4 order-md-3">
                 <GetIcon />
                 <h4>
-                  Sunset <br /> Enjoy majestic views
+                  Sunset <br /> dream house
                 </h4>
               </div>
               <div className="work-area--service--items order-3 order-md-4">
                 <EnjoyIcon />
                 <h4>
-                  Family <br /> Privacy
+                  Enjoy your <br /> Apartment
                 </h4>
               </div>
             </div>
