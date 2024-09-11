@@ -56,7 +56,7 @@ const WorkArea = () => {
               <div className="work-area--service--items order-3 order-md-4">
                 <EnjoyIcon />
                 <h4>
-                  Enjoy your <br /> Apartment
+                  Enjoy your <br /> holidays
                 </h4>
               </div>
             </div>
