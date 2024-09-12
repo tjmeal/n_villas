@@ -1,16 +1,17 @@
 'use client';
-import React, { useEffect, useState } from 'react';
-import { SelectPicker } from 'rsuite';
-import { getCookie, hasCookie, setCookie } from 'cookies-next';
+import React, {useEffect, useState} from 'react';
+import {SelectPicker} from 'rsuite';
+import {getCookie, hasCookie, setCookie} from 'cookies-next';
 
 import greekImage from '/public/images/assets/greek.jpeg';
 import englishImage from '/public/images/assets/english.jpeg';
 import Image from 'next/image';
+import Link from "next/link";
 
 const Translate = () => {
     const languages = [
-        { label: 'English', value: '/auto/en' },
-        { label: `Greek`, value: '/auto/el' },
+        {label: 'English', value: '/auto/en'},
+        {label: `Greek`, value: '/auto/el'},
     ];
     const [selected, setSelected] = useState(null);
 
@@ -61,7 +62,7 @@ const Translate = () => {
             <SelectPicker
                 id="langPicker"
                 data={languages}
-                style={{ width: 100, color:'#1C4456!important'}}
+                style={{width: 100, color: '#1C4456!important'}}
                 placement="bottomEnd"
                 cleanable={false}
                 value={selected}
@@ -71,14 +72,16 @@ const Translate = () => {
                 onSelect={(e, m, evt) => langChange(e, m, evt)}
                 placeholder="Lang"
             />
-            <div className="translateImg">
-                {selected === '/auto/el' ? ( // Display Greek image if selected language is 'el'
-                    <Image src={greekImage} alt="Greek" className="imge" />
-                ) : (
-                    // Display English image for all other languages
-                        <Image src={englishImage} alt="English" className="imge" />
-                )}
-            </div>
+            <Link href="https://docs.google.com/presentation/d/1B_yRhTiplEgvEBp-cXqHBtmM3P0ZEbGZ/edit?usp=drive_link&ouid=105141525970127500192&rtpof=true&sd=true">
+                <div className="translateImg">
+                    {selected === '/auto/el' ? ( // Display Greek image if selected language is 'el'
+                        <Image src={greekImage} alt="Greek" className="imge"/>
+                    ) : (
+                        // Display English image for all other languages
+                        <Image src={englishImage} alt="English" className="imge"/>
+                    )}
+                </div>
+            </Link>
         </div>
     );
 };
