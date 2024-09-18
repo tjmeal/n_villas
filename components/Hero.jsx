@@ -62,10 +62,6 @@ const Hero = () => {
                   <h1 className="hero-content-title">
                     Find a perfect property Where you&rsquo;ll love to live
                   </h1>
-                  <p className="hero-content-description">
-                    We helps businesses customize, automate and scale up their ad
-                    production and delivery.
-                  </p>
                 </div>
                 <div className="hero-form">
                   <nav>
