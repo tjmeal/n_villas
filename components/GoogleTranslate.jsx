@@ -73,8 +73,8 @@ const Translate = () => {
                 placeholder="Lang"
             />
             <Link href="https://drive.google.com/file/d/12oKmEfFyzv_4Wiz0bfXan3on1WFTLq4m/view?usp=sharing">
-                <div className="translateImg">
-                    <title>File</title>
+                <div className="translateImg" title={"title"}>
+                    <h2>About Us</h2>
                     {selected === '/auto/el' ? ( // Display Greek image if selected language is 'el'
                         <Image src={greekImage} alt="Greek" className="imge"/>
                     ) : (
