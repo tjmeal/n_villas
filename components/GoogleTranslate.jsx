@@ -72,8 +72,9 @@ const Translate = () => {
                 onSelect={(e, m, evt) => langChange(e, m, evt)}
                 placeholder="Lang"
             />
-            <Link title={" "} href="https://drive.google.com/file/d/12oKmEfFyzv_4Wiz0bfXan3on1WFTLq4m/view?usp=sharing">
+            <Link href="https://drive.google.com/file/d/12oKmEfFyzv_4Wiz0bfXan3on1WFTLq4m/view?usp=sharing">
                 <div className="translateImg">
+                    <title>File</title>
                     {selected === '/auto/el' ? ( // Display Greek image if selected language is 'el'
                         <Image src={greekImage} alt="Greek" className="imge"/>
                     ) : (
