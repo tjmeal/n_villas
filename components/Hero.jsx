@@ -66,6 +66,7 @@ const Hero = () => {
                   The perfect location close to Athens, to enjoy your vacation with your family.
                 </p>
               </div>
+
               {/*<div className="hero-form">*/}
               {/*  <nav>*/}
               {/*    <div className="nav nav-tabs" id="nav-tab" role="tablist">*/}
